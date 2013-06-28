@@ -1,0 +1,10 @@
+{application, msgpack, [
+  {description, "MessagePack codec, extracted from msgpack/msgpack-erlang"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []}
+]}.
